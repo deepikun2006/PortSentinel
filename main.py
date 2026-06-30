@@ -3,7 +3,7 @@ import time
 import re
 import html
 import wmi
-import pythoncom  # Required for COM initialization in QThreads
+import pythoncom  
 
 from device_registry import (
     get_vendor_name,

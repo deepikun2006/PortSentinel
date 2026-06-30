@@ -232,9 +232,6 @@ VENDOR_DB = {
 }
 
 
-# Device categories help future versions of PortSentinel make better decisions.
-# Your current main.py does not require these, but they are useful for future upgrades.
-
 INPUT_VENDOR_IDS = {
     "045E", "046A", "046D", "047D", "04D9", "04F2", "04F3", "056A",
     "0603", "062A", "0738", "0853", "093A", "09DA", "0D62", "1038",
@@ -274,7 +271,6 @@ TRUSTED_DEVICES = {
     # VID_062A / PID_4C01
     "062A:4C01": "Authorized MosArt / Primax Mouse Receiver",
 
-    # Optional examples — keep only if these are actually yours:
     "046D:C52B": "Authorized Logitech Unifying Receiver",
     "045E:07A5": "Authorized Microsoft Office Mouse",
 }
